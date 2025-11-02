@@ -208,13 +208,13 @@ nav input {
   font-weight: 500;
 }
 
-.Landing-Page {
+.Benefit-Page {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 150px 0;
 }
-.Landing-Page-image {
+.Benefit-Page-image {
   background-color: #f3fafb;
   height: 608px;
   width: 541px;
@@ -222,12 +222,12 @@ nav input {
   justify-content: center;
   align-items: top center;
 }
-.Landing-Page-image img {
+.Benefit-Page-image img {
   height: 513px;
   width: 445px;
 }
 
-.Landing-Page-text {
+.Benefit-Page-text {
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -235,32 +235,31 @@ nav input {
   align-items: start;
   padding: 50px 65px;
 }
-.Landing-Page-text p {
+.Benefit-Page-text p {
   font-size: 16px;
   padding: 2px 0;
 }
-.Landing-Page-text h1 {
+.Benefit-Page-text h1 {
   width: 100%;
   font-size: 60px;
   line-height: 1.3;
   padding: 2px 0;
   font-weight: 500;
 }
-.Landing-Page-text-icon {
+.Benefit-Page-text-icon {
   display: flex;
   justify-content: center;
   align-items: start;
   gap: 20px;
   line-height: 40px;
 }
-.Landing-Page-icon div i {
+.Benefit-Page-icon div i {
   color: #06c167;
   font-size: 18px;
 }
-.Landing-Page-icon-text h3 {
+.Benefit-Page-icon-text h3 {
   font-weight: 400;
 }
-
 .our-stars {
   display: flex;
   justify-content: space-between;
@@ -513,6 +512,90 @@ nav input {
   font-size: 50px;
   text-align: center;
   width: 60%;
+}
+
+footer {
+  margin: 30px 0;
+}
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-areas: "a a a a b b c c d d d d";
+  gap: 60px;
+}
+.social-icons {
+  grid-area: a;
+}
+.about-us {
+  grid-area: b;
+}
+.company {
+  grid-area: c;
+}
+.get-in-touch {
+  grid-area: d;
+}
+
+.social-icons h2 {
+  color: #06c167;
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+.social-icons p {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.common-text {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.common-tt {
+  list-style: none;
+}
+.common-tt a {
+  text-decoration: none;
+  color: #1d1d1f;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 2;
+}
+
+.get-in-touch p {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 35px 0;
+}
+
+.subscribe {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  gap: 10px;
+}
+.subscribe input {
+  height: 50px;
+  width: 205px;
+  padding-left: 20px;
+  background-color: #f0f1ec;
+  border: none;
+  font-size: 14px;
+}
+
+.subscribe button {
+  background-color: #06c167;
+  height: 50px;
+  width: 118px;
+  border: none;
+  font-size: 14px;
+}
+.copyright {
+  text-align: center;
+  font-size: 16px;
+  margin-top: 100px;
 }
 
 @media screen and (max-width: 776px) {
