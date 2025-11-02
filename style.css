@@ -406,6 +406,77 @@ nav input {
   font-weight: 500;
 }
 
+.our-products {
+  margin: 100px 0;
+}
+.our-products p {
+  font-size: 15px;
+  font-weight: 500;
+}
+.our-products h1 {
+  font-size: 60px;
+  font-weight: 500;
+  padding: 10px 0;
+  margin-bottom: 50px;
+}
+.our-product-box {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+  justify-items: center;
+}
+.product {
+  height: 445px;
+  width: 270px;
+  border: 2px solid #a6a7a7;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.green {
+  border: 2px solid #06c167;
+}
+.product img {
+  width: 190px;
+  height: 190px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.product h3 {
+  font-size: 20px;
+  font-weight: 400;
+  padding: 15px 0;
+}
+
+.old-price {
+  text-decoration: line-through;
+  font-size: 20px;
+  color: #767675;
+  font-weight: 600;
+  padding-right: 10px;
+}
+.new-price {
+  font-size: 20px;
+  color: #06c167;
+}
+
+.product button {
+  width: 177px;
+  height: 57px;
+  margin: 20px 0;
+  font-size: 16px;
+  border: 2px solid #06c167;
+  background-color: #ffffff;
+  color: #06c167;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
 .veggiefoodsBanner {
   margin: 200px 0px;
   width: 100%;
