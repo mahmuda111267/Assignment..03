@@ -159,6 +159,30 @@
     justify-content: center;
     align-items: center;
   }
+  .img-one {
+    order: 1;
+  }
+  .exchange-one {
+    order: 2;
+  }
+  .img-two {
+    order: 3;
+  }
+  .exchange-two {
+    order: 4;
+  }
+  .img-three {
+    order: 5;
+  }
+  .exchange-three {
+    order: 6;
+  }
+  .img-four {
+    order: 7;
+  }
+  .exchange-four {
+    order: 8;
+  }
 
   /* product */
   .our-product-box {
